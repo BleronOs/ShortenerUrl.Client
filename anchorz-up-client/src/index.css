@@ -6,8 +6,89 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.container {
+  display: flex;
+  height: 750px;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.sidebar {
+  background-color: rgb(237, 237, 237);
+  color: black;
+  padding: 20px;
+  width: 350px; 
+}
+
+.content {
+  padding: 20px;
+  margin-left: 5%;
+  width: 1200px;
+}
+
+.logo {
+  margin: 20px 0px 20px 20px;
+  width: 200px;
+  height: 70px;
+}
+
+.short-url {
+  text-align: center;
+  margin-right: 20px;
+}
+.short-url h2{
+  margin-right: 8px;
+}
+
+input{
+  margin-top: 20px;
+  height: 37px;
+  width: 150%;
+}
+
+select{
+  margin-top: 20px;
+  height: 42px;
+  width: 150%;
+}
+
+.content button{
+  margin-top: 30px;
+  height: 40px;
+  width: 17%;
+  background-color: rgb(153, 0, 115);
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.input-inline{
+  display: flex;
+  justify-content: space-between;
+}
+.inp1{
+  width: 100%;
+}
+.inp2 {
+  width: 70%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+table{
+  margin-left: 20px;
+}
+
+.short-url td{
+ padding: 10px;
+}
+.short-url button{
+  border: none;
+  background-color: transparent;
+  color: gray;
+  margin-top: 7px;
+  cursor: pointer;
+}
+h2 {
+  font-size: 20px;
 }
